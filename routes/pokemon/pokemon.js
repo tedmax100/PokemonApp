@@ -5,9 +5,13 @@ var fs = require('fs');
 /* GET pokemon users listing. */
 var nameDictionary = {};
 var moveList = {};
-router.get('/getPokeList', function (req, res, next) {
+router.post('/getPokeList' , function (req, res, next) {
   //step 1. check user is login online, but we have not implement it now.
   //step 2. cache data when first load.
+  console.log(req.body);
+  var mid = 12345;
+  var lang = 'eng';
+
   if (Object.keys(nameDictionary).length === 0) {
     fs.readFile('./public/pokeData/pokemonName.json', 'utf8', (err, data) => {
       if (err) throw err;
