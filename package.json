@@ -33,6 +33,12 @@
     "koa":"^2.0.0",
     "koa-better-router":"*",
     "koa-better-body":"*",
-    "koa-better-serve":"*"
+    "koa-better-serve":"*",
+    "koa-favicon":"*",
+    "koa-static2 ":"*",
+    "koa-compress":"*",
+    "koa-cache-lite":"*",
+    "koa-passport":"*",
+    "koa-session2":"*"
   }
 }
