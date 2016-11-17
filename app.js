@@ -57,5 +57,9 @@ app.use(function(err, req, res, next){
     });
    return;
 });
+<<<<<<< HEAD
+=======
+app.listen(3001);
+>>>>>>> 772b64b1402e89c8ad9cc0cdbd3cd717a6202ced
 
 module.exports = app;
