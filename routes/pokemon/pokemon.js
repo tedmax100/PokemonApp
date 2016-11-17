@@ -9,15 +9,18 @@ var moveList = {};
 router.post('/getPokeList' , function (req, res, next) {
   //step 1. check user is login online, but we have not implement it now.
   //step 2. cache data when first load.
-  var mid="";
+  var mid=""; var lang="CHT";
   if(req.body != null || !req.body){
-   //console.log(req.body);
      log.getLogger().info('req body : '+ JSON.stringify(req.body));
-     mid = req.body;
+     var tempBody = req.body.replace(/"/gi, '').split('&');
+     if(tempBody.length > 1){
+       mid = tempBody[0];
+       lang = tempBody[1];
+     }else{
+       mid = tempBody[0];
+     }
   }
-
-  var lang = 'eng';
-  
+  log.getLogger().info('mid : '+ mid + ', lang : ' + lang);
   if (Object.keys(nameDictionary).length === 0) {
     fs.readFile('./public/pokeData/pokemonName.json', 'utf8', (err, data) => {
       if (err) throw err;
