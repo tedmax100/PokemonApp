@@ -14,31 +14,23 @@
     "pokemon"
   ],
   "author": {
-      "name" : "nathan.lu",
-      "email" : "tedmax100@gmail.com"
+    "name": "nathan.lu",
+    "email": "tedmax100@gmail.com"
   },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tedmax100/PokemonApp/issues"
   },
   "homepage": "https://github.com/tedmax100/PokemonApp#readme",
-  "engine" : "node >= 0.6.0",
+  "engine": "node >= 0.6.0",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "co": "*",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "express": "^4.14.0",
+    "koa-static2 ": "*",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0",
-    "koa":"^2.0.0",
-    "koa-better-router":"*",
-    "koa-better-body":"*",
-    "koa-better-serve":"*",
-    "koa-favicon":"*",
-    "koa-static2 ":"*",
-    "koa-compress":"*",
-    "koa-cache-lite":"*",
-    "koa-passport":"*",
-    "koa-session2":"*"
+    "serve-favicon": "~2.3.0"
   }
 }
