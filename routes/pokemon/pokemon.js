@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
@@ -43,7 +42,7 @@ router.get('/getMoveList', function (req, res, next) {
 });
 
 module.exports = router;
-=======
+
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
@@ -84,4 +83,4 @@ router.get('/getMoveList', function (req, res, next) {
 });
 
 module.exports = router;
->>>>>>> 3a36394663353e83472748cbb738151114215c03
+
