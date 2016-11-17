@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var log = require('./Debugger.js');
-
+var fs = require('fs');
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
 var poke = require('./routes/pokemon/pokemon');
@@ -59,6 +59,6 @@ app.use(function(err, req, res, next){
    return;
 });
 
-//app.listen(3001);
+app.listen(3001);
 
 module.exports = app;

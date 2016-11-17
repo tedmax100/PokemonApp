@@ -1,2 +1,12 @@
 {"level":"info","message":"test","timestamp":"2016-11-17T08:16:17.469Z"}
 {"level":"info","message":"test","timestamp":"2016-11-17T08:25:10.958Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:51:20.503Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:51:31.874Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:51:51.114Z"}
+{"level":"info","message":"req body : {\r\n \"mid\":1\r\n}","timestamp":"2016-11-17T08:52:00.624Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:53:11.625Z"}
+{"level":"info","message":"req body : {\r\n \"mid\":1\r\n}","timestamp":"2016-11-17T08:53:20.341Z"}
+{"level":"info","message":"req body : [object Object]","timestamp":"2016-11-17T08:53:22.053Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:57:18.049Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:57:23.328Z"}
+{"level":"info","message":"req body : {\r\n mid:1\r\n}","timestamp":"2016-11-17T08:57:24.528Z"}
