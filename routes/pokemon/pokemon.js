@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
+var log = require('../../Debugger.js');
 //var sessionManager = require('./sessionManager.js');
 /* GET pokemon users listing. */
 var nameDictionary = {};
@@ -11,6 +12,7 @@ router.post('/getPokeList' , function (req, res, next) {
   var mid="";
   if(req.body != null || !req.body){
    //console.log(req.body);
+     log.getLogger().info('req body : '+ req.body);
      mid = req.body;
   }
 

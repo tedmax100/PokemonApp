@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var log = require('./Debugger.js');
 
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
@@ -57,9 +58,7 @@ app.use(function(err, req, res, next){
     });
    return;
 });
-<<<<<<< HEAD
-=======
+
 app.listen(3001);
->>>>>>> 772b64b1402e89c8ad9cc0cdbd3cd717a6202ced
 
 module.exports = app;
