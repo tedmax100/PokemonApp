@@ -12,7 +12,7 @@ router.post('/getPokeList' , function (req, res, next) {
   var mid="";
   if(req.body != null || !req.body){
    //console.log(req.body);
-     log.getLogger().info('req body : '+ req.body);
+     log.getLogger().info('req body : '+ JSON.stringify(req.body));
      mid = req.body;
   }
 
